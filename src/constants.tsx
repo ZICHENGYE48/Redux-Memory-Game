@@ -1,3 +1,10 @@
+import bear from './assets/bear.jpeg'
+import city from './assets/city.jpeg'
+import flower from './assets/flower.jpeg'
+import forest from './assets/forest.jpeg'
+import mountain from './assets/mountain.jpeg'
+import sea from './assets/sea.jpeg'
+
 export const cardText = {
   title: 'Memory Game',
   btnText: 'New Game',
@@ -6,27 +13,27 @@ export const cardText = {
 
 export const cardImages = [
   {
-    src: './images/bear.jpeg',
+    src: bear,
     matched: false
   },
   {
-    src: './images/city.jpeg',
+    src: city,
     matched: false
   },
   {
-    src: './images/flower.jpeg',
+    src: flower,
     matched: false
   },
   {
-    src: './images/forest.jpeg',
+    src: forest,
     matched: false
   },
   {
-    src: './images/mountain.jpeg',
+    src: mountain,
     matched: false
   },
   {
-    src: './images/sea.jpeg',
+    src: sea,
     matched: false
   }
 ]
