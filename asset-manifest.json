@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Redux-Memory-Game/static/css/main.5a83ba0f.css",
+    "main.js": "/Redux-Memory-Game/static/js/main.8418bb81.js",
+    "static/media/forest.jpeg": "/Redux-Memory-Game/static/media/forest.478a3b1ce5e911100bed.jpeg",
+    "index.html": "/Redux-Memory-Game/index.html",
+    "main.5a83ba0f.css.map": "/Redux-Memory-Game/static/css/main.5a83ba0f.css.map",
+    "main.8418bb81.js.map": "/Redux-Memory-Game/static/js/main.8418bb81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a83ba0f.css",
+    "static/js/main.8418bb81.js"
+  ]
+}
