@@ -1,4 +1,5 @@
 import { useCallback } from 'react'
+import cover from '../../assets/cover.png'
 import './styles.scss'
 
 interface CardProps {
@@ -24,7 +25,7 @@ const Card = ({
     <div className="card">
       <div className={flipped ? 'flipped' :'' }>
         <img className="front" src={card.src} alt="Card Front"/>
-        <img className="back" onClick={handleClick} src="/images/cover.png" alt="Card Back"/>
+        <img className="back" onClick={handleClick} src={cover} alt="Card Back"/>
       </div>
     </div>
   )
