@@ -2,4 +2,4 @@
 
 This project was bootstrapped with Create React App.
 
-View this project on 
+View this project on https://zichengye48.github.io/Redux-Memory-Game/
