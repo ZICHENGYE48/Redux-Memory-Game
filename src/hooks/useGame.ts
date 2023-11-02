@@ -42,7 +42,7 @@ export default function useGame () {
         setTimeout(() => resetTurn(), 500);
       }
     }
-  },[choiceOne, choiceTwo])
+  },[choiceOne, choiceTwo,resetTurn])
 
   useEffect(() =>{
     shuffleCards()

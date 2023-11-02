@@ -12,18 +12,19 @@ const Game = () => {
       <h1>{title}</h1>
       <button onClick={shuffleCards}>{btnText}</button>
       {
-        winner && <small className="result">{winMessage}</small>
+        winner && <p className="result">{winMessage}</p>
       }
       <div className="cardBoard">
         {
           cards.length &&
           cards.map((card:Card)=> (
-            <div>
-              <Card key={card.id} 
-              card={card} 
-              handleCardClick={handleCardClick} 
-              disabled={disabled}
-              flipped={card === choiceOne || card === choiceTwo || card.matched}/>
+            <div key={card.id}>
+              <Card
+                card={card} 
+                handleCardClick={handleCardClick} 
+                disabled={disabled}
+                flipped={card === choiceOne || card === choiceTwo || card.matched}
+              />
             </div>
           ))
         }
